@@ -1,0 +1,329 @@
+﻿"","Attached is the billing receipt from company, our ticketing system provider. ",""
+"","read -p ""Enter your birth year.  Example: 1900 : "" year
+read -p ""Enter your birht month. Example: 06 "" month
+
+yearnow=$(date '+%Y')
+monthnow=$(date '+%m')
+
+agey=$(($yearnow-$year))
+agem=$(($monthnow-$month))
+
+if [ $agem -lt 0 ] ; then
+   agem=$(($monthnow-$month+12))
+else
+   agem=$(($monthnow-$month))
+fi
+echo ""You are $agey years and $agem months old!",""
+"","d ",""
+"","var url = TextExpander.pasteboardText;
+var youtubeRx = /(?:youtu\.be\/|youtube\.com\/watch\?v=)([a-z0-9_\-]+)$/i
+
+if (youtubeRx.test(url)) {
+	var id = youtubeRx.exec(url)[1];
+	TextExpander.appendOutput(`{{< youtube ${id} >}}`);
+}","Z ticket"
+"$Febu","February",""
+"$aa","Abdallah Anwar","Full Name"
+"$age","var dob = new Date(""08/11/1982"");   
+var month_diff = Date.now() - dob.getTime();   
+var age_dt = new Date(month_diff);    
+var year = age_dt.getUTCFullYear();   
+var age = Math.abs(year - 1970);    
+
+let result = + age 
+
+result
+","My age"
+"$agm","مساء الخير يا حبيبتي ❤️😘"," Arabic good morning "
+"$agod","‏الحمد لله ❤️","Arabic Thanks be to God"
+"$aluv","‏حبيبتي انت","Arabic love"
+"$amal","‏شكرا يا أمي يا حبيبتي","Mom thanks"
+"$aps","AppleScript","AppleScript"
+"$ar"," ‏‏حياتي انت فين؟","Arabic question "
+"$asu","sudo softwareupdate --install --all --restart --include-config-data","Apple Software Update"
+"$baba","‏شكرا يا بابا حبيبي. ‏ربنا يخليك ليا.","Majdi"
+"$btw","By the way,","By the way..."
+"$cask","brew search --casks","Casks"
+"$chew","altruism","Altruism"
+"$choices","Hi David:<br /><br />Here is my menu for this week.<br /><br /><u><b>Style</b>:</u> %filltext:name=Cuisine Style:width=20:default=&lt;Style&gt;%<br /><br /><b>Meat</b>: %fillpopup:name=Meat 1:Beef:default=Chicken Breast:Chicken Thighs:Salmon:Tilapia:Shrimp:Catfish:Cod:Lamb:Turkey% and %fillpopup:name=Meat 2:Beef:default=Chicken Breast:Chicken Thighs:Salmon:Tilapia:Shrimp:Catfish:Cod:Lamb:Turkey%<br /><b>Vegetable sides</b>: %fillpopup:name=Vegitable Side 1:Asparagus:default=Broccoli:Butternut Squash:Brussels Sprouts:Cauliflower:Corn:Carrots:Cabbage:Parsnips:Turnips:Green Beans:Spinach:Swiss Chard:Kale:Zucchini:Yellow Squash:Snap Peas:Tomatoes:Beets:Potatoes:Sweet Potatoes:Yams% and %fillpopup:name=Vegetable Side 2:Asparagus:default=Broccoli:Butternut Squash:Brussels Sprouts:Cauliflower:Corn:Carrots:Cabbage:Parsnips:Turnips:Green Beans:Spinach:Swiss Chard:Kale:Zucchini:Yellow Squash:Snap Peas:Tomatoes:Beets:Potatoes:Sweet Potatoes:Yams%<br /><b>Other sides</b>: %fillpopup:name=Other Side 1:Rice:default=Mac N'Cheese:Cous Cous:Brown Rice:Rice Noodles:Vermecelli Noodles: Pasta/Spaghetti:Beans:Lentils% and %fillpopup:name=Other Side 2:Rice:default=Mac N'Cheese:Cous Cous:Brown Rice:Rice Noodles:Vermecelli Noodles: Pasta/Spaghetti:Beans:Lentils%<br /><b>Lunches</b>: %fillpopup:name=Lunches 1:Curry chicken salad:default=Cajun Chicken Salad:Broccoli Chicken Salad:Raw Kale chicken Salad:Mozzarella pasta salad:Pesto Gnocchi with Sun-dried tomatoes:Grape n pecan chicken salad:Old fashioned chicken salad:Tuna Salad:Potato salad:Egg Salad:Japanese Noodles with chicken:Greek Salad% and %fillpopup:name=Lunches Choice 2:Curry chicken salad:default=Cajun Chicken Salad:Broccoli Chicken Salad:Raw Kale chicken Salad:Mozzarella pasta salad:Pesto Gnocchi with Sun-dried tomatoes:Grape n pecan chicken salad:Old fashioned chicken salad:Tuna Salad:Potato salad:Egg Salad:Japanese Noodles with chicken:Greek Salad%","David Meals"
+"$colle","colleague","Colleague"
+"$cov","COVID-19","Coronavirus"
+"$crba","CRBA Consular Report","CRBA Report"
+"$def","definitely","definitely"
+"$def","definitely","Definitely"
+"$drop","I dropped my phone today on %b %d, %Y at %I:%M %p. ","Phone Drop Script"
+"$ed","### Task List for Edward
+%@+1D%snippet:$dd%
+
+1. Wipe my glasses
+2. Take out the trash
+3. ","Eddie"
+"$ee","units %|usd egp","USD to EGP"
+"$efcap","tell application ""System Events""
+	tell process ""Mail""
+		tell text field ""To:"" of window 1
+			if UI element 1 exists then
+				set theToRecipient to (value of UI element 1)
+				if ((count words of theToRecipient) is greater than 0) and (theToRecipient does not contain "","") then
+					return word 1 of theToRecipient
+				else if ((count words of theToRecipient) is greater than 0) and (theToRecipient contains "","") then
+					return word 2 of theToRecipient
+				end if
+			end if
+		end tell
+	end tell
+end tell","Name capture"
+"$eff","efficiently","efficiently"
+"$email","bocciaman@gmail.com","Home Email"
+"$esp","gt en>es ","Alfred Spanish Google Translate"
+"$etf","ETFs Holding %filltext:name=Ticker Symbol:width=20:default=<Ticker>%","ETF Search"
+"$exde","%m/%d/%Y","Excel Date"
+"$fc","Fundraising Committee","Fundraising Committee"
+"$fuh","facetious","fuh-see-shuh s (facetious)"
+"$garr","Hi Garrett:
+
+","Garrett"
+"$gm","in:inbox is:unread","Select All in Gmail"
+"$gs","Goldman Sachs account","Goldman Sachs"
+"$gt","gt en>ar ","Alfred Arabic Google Translate"
+"$hbd","Happy birthday 🎂🎁🎉","Happy Birthday Greeting"
+"$ind","individual","individual"
+"$ita2","https://www.insidethatad.net/wp-admin","ITA Admin"
+"$jo","Hi John:
+","Hi John"
+"$ke","Karabiner Elements","Karabiner Elements"
+"$km","Keyboard Maestro","Keyboard Maestro"
+"$ksa","Saudi Arabia","Kingdom of Saudi Arabia"
+"$la","L.A.","Los Angeles"
+"$lett","To Whom It May Concern:
+
+","Letter Intro"
+"$lmk","Let me know.","LMK"
+"$luv","Do you know that I love you?","Love"
+"$macos","#!/bin/zsh
+pver=$(sw_vers -productVersion)
+bver=$(sw_vers -buildVersion)
+lic=$(awk '/SOFTWARE LICENSE AGREEMENT FOR/' '/System/Library/CoreServices/Setup Assistant.app/Contents/Resources/en.lproj/OSXSoftwareLicense.rtf' | sed 's/\\f0\\b SOFTWARE LICENSE AGREEMENT FOR //')
+
+if [ `echo $lic | grep -oc 'macOS'` -eq 1 ]
+then
+	name='macOS'
+elif [ `echo $lic | grep -oc 'OS X'` -eq 1 ]
+then
+	name='OS X'
+else
+	name='unspecified'
+fi
+
+codename=$(echo $lic | sed ""s/$name //"")
+
+echo $name $pver, $codename '('$bver')'
+","MacOS version"
+"$mail","Abdallah Anwar 
+11023 McCormick St Apt 212
+North Hollywood, CA 91601","Mailing Address"
+"$maj",".‏شكرا يا بابا حبيبي","Dad Thank you"
+"$met","@metrolaalerts: Are the elevators at the Red Line/ Purple Line Station at Wilshire/ Vermont working right now on %A, %B %d, %Y at %I:%M %p? #wheelchairrider","Metro 2"
+"$misc","miscellaneous","miscellaneous"
+"$mm","Mini Movie","Temp folder name"
+"$mta","@metrolaalerts: Are the elevators at the Red Line North Hollywood Station working right now on %A, %B %d, %Y at %I:%M %p? #wheelchairrider","MTA Wheelchair Message"
+"$myt","https://www.youtube.com/@AutomationMaestro","My Youtube Channel"
+"$news","%snippet:$title%<br />%snippet:,,surl%","News Article"
+"$nz","Hi Nazanin,
+
+","Nazanin"
+"$olet","To Whom It May Concern:","Opener to a letter"
+"$pal","Palette","Palette"
+"$pca","Hi %filltext:name=Name:width=20%,
+
+When can you come to meet for an interview? Can you come today at 4PM?
+
+Shifts are Monday- Friday 6:00 AM - 7:20 AM. Longer shifts may be available. (Important: You will be paid for 2 hours!)  You may take as many or as little of the shifts as you wish.
+
+We can meet at:
+
+Starbucks
+5166-A Lankershim Blvd
+Los Angeles, CA 91601, USA
+
+Please bring a printed copy of this email with you if these terms are acceptable. Please reply if the hours and hourly wage for this job work for you.
+
+Best,
+
+-A.B. Anwar","PCA Interview Email"
+"$pemail","bocciaman@protonmail.ch","Proton Mail"
+"$ph","(217) 390-1707","Phone#"
+"$pp","PayPal","paypal"
+"$ptme","Hi Edward,
+
+it's now %I:%M%p, are you still coming in this morning?","PA Time"
+"$rec","Receipt","Receipt"
+"$ref","reference","reference"
+"$sbux","Starbucks 
+5166 A Lankershim Blvd
+North Hollywood CA 91601
+United States","Starbucks Address"
+"$sep","separate","separate"
+"$stock","Robinhood_%m-%d-%Y","Robinhood Screenshot Naming"
+"$sysinfo","#!/bin/bash
+system_profiler SPHardwareDataType SPDisplaysDataType SPSoftwareDataType | grep -E ""Model|Version|Processor|Cores|Memory: \d|VRAM|Integrity|Time"" | sed 's/^ *//'","System Info"
+"$tc","Hi Tish,
+
+","Tish Casillas"
+"$thx","Thank you!","Thank you"
+"$title","tell application ""Safari""
+    set mytitle to name of current tab in window 1
+end tell
+
+return mytitle","Article title"
+"$tmp","Units %| f c","Alfred Temp"
+"$tomorrow","Tomorrow %@+1D(%m/%d/%Y)","Tomorrow"
+"$tunes","tell application ""iTunes""
+	set current_song to the name of current track
+	set current_artist to the artist of current track
+	set current_album to the album of current track
+        set anURL to current stream URL
+end tell
+
+-- Change formatting to your liking here.
+return ""I'm Currently listening to \"""" & current_song & ""\"" by "" & current_artist & "" from the "" & current_album & "" "" & ""album. "" & "" "" & ""#NowPlaying "" & "" "" & ""#LoveMusic ""","iTunes"
+"$umred","<b>First Name</b>&nbsp;Abdallah (But I go by A.B.)<br /><br /><b>Last Name</b>&nbsp;Anwar<br /><br /><b>Email Address</b>&nbsp;%snippet:$pemail%<br /><br /><b>Phone</b>&nbsp;%snippet:$ph%<br /><br /><b>City</b>&nbsp;%snippet:;noho%<br /><br /><b>State</b> California<br /><br /><b>Age</b>&nbsp;%snippet:$age%<br /><br /><b>Ethnicity</b>&nbsp;Arab/Middle Eastern<br /><br /><b>Appointment Date:</b> %filltext:name=Date:width=20:default= , %<br /><br /><b>Appointment Time:</b>&nbsp;%filltext:name=Time:width=20:default=: %<br /><b>Duration</b>&nbsp;2 HRS<br /><br /><b>Location</b>&nbsp;Outcall - my place (Will provide details once appt is confirmed &amp; I've sent the dep.)<br /><br /><b>My LinkedIn:</b>&nbsp;linkedin.com/in/abdallahanwar<br /><br /><b>Things you should know: </b>I Use a power wheelchair for mobility.<br /><br /><b>Reference 1:</b> Contact details from previous engagement - Parker Luna - https://www.parkerluna.com/ meetparkerluna@protonmail.com<br /><br /><b>Reference 2:</b> Contact details from previous engagement Maisie Monroe - https://twitter.com/MaisieMonroeVIP princessmaisie@protonmail.com<br /><br />My company is Mail2World.net but there us no picture on the site.<br /><br />You can find my name A.B. Anwar at  http://mail2world.net/en/contact-us and compare with it with LinkedIn linkedin.com/in/abdallahanwar<br /><br />I don't have a work ID but when I get a response I can send you a picture of me holding my my state ID. ","Red Umbrella"
+"$usab","USA Boccia Board Meeting","Boccia Board"
+"$wc","#WheelchairRider","Metro #"
+"$wry","Where are you? Are you coming in?","Morning Question"
+"$ymail","bocciamaster@yahoo.com","Yahoo Email Address"
+",,appt","Hi %filltext:name=Customer First Name:width=20:default=First Name%,<br /><br />Message:<br /><br />________<b>Appointment Details</b>________<br /><br /><b>Appointment Date</b>: %filltext:name=Date:width=20:default= , %<br /><br /><b>Appointment Time</b>:&nbsp;%filltext:name=Time:width=20:default=: %<br /><b>Duration</b>:&nbsp;2 HRS<br /><br /><b>Location&nbsp;Outcall</b>: My place (Will provide details once appt is confirmed &amp; I've sent the dep.)","Appointment Request"
+",,check","Hi %filltext:name=Customer First Name:width=20:default=First Name%,<br />&nbsp;<br /><span style=""color:#0e101a;"">To check your mail, are you navigating</span> to&nbsp;(<a href=""https://webmail.centurylink.net/app/"">https://webmail.centurylink.net/app/</a>)&nbsp;using the desktop / laptop browser<span style=""color:#0e101a;"">, or are you using a mail client (Outlook, Thunderbird, etc.)? We look forward to hearing from you.&nbsp;</span><br /><br /><span style=""color:#0e101a;"">Have a great day!</span><br /><br /><span style=""color:#0e101a;"">CenturyLink Email Support</span>","Webmail Check"
+",,ddiff","const today = new Date();
+const pastDate = new Date(""2016-10-21"");
+const diffTime = Math.abs(today - pastDate);
+const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+const diffMonths = Math.floor(diffDays / 30);
+const diffYears = Math.floor(diffDays / 365);
+const remainingMonths = diffMonths % 12;
+const remainingDays = diffDays % 30;
+
+`It has been ${diffYears} years, ${remainingMonths} months, and ${remainingDays} days, since my last raise.`
+","Date difference"
+",,fb","https://www.facebook.com/anwar.abdallah1","FB Link"
+",,ldm","Lumen Daily Meeting Notes %snippet:;dd%","Lumen Daily Meeting Notes Header"
+",,nurl","tell application ""Safari""
+    set currentTab to current tab of window 1
+    set tabName to name of currentTab
+    set tabURL to URL of currentTab
+end tell
+
+set the clipboard to (tabName & return & tabURL)
+
+return """"
+","url test"
+",,title","tell application ""Safari""
+	set theURL to URL of front document
+	set theTitle to name of front document
+end tell
+
+-- Copy the URL and title to clipboard
+set the clipboard to theURL & return & ""**"" & theTitle & ""**""
+
+-- Wait for 2 seconds
+delay 2
+","Title "
+"//date","const today = new Date();
+const pastDate = new Date(""2016-10-21"");
+const diffTime = Math.abs(today - pastDate);
+const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+const diffMonths = Math.floor(diffDays / 30);
+const diffYears = Math.floor(diffDays / 365);
+
+`${diffYears} years, ${diffMonths} months, and ${diffDays} days have passed since ${pastDate.toDateString()}.`
+","Raise"
+"/date-diff","%snippet:js-date-diff%
+
+Please enter a date in the past (in the format 2016-10-21):
+","Raise "
+";;mmore","<!--more-->","Markdown more"
+";;naz","Hi Naz,
+
+Any news on my stepdaughter's case? My wife is going to be forced to let her visa expire on  03/15/2023 if we don't hear anything before the deadline. 
+","Naz email"
+";;ytv","var url = TextExpander.pasteboardText;
+var youtubeRx = /(?:youtu\.be\/|youtube\.com\/watch\?v=)([a-z0-9_\-]+)$/i
+
+if (youtubeRx.test(url)) {
+	var id = youtubeRx.exec(url)[1];
+	TextExpander.appendOutput(`{{< youtube ${id} >}}`);
+}","Embed Youtube (copy)"
+";aa","Abdallah","First Name (Only)"
+";ab","A.B. Anwar","AB Anwar"
+";btt","BetterTouchTool","BetterTouch Tool"
+";cal","%filltext:name=Event Name:width=20% at %filltext:name=Time:width=20% on %filltext:name=Date:width=20% in %filltext:name=Location:width=20%","Alfred Calendar"
+";cc","credit card","credit card"
+";cid","UCvPccybgk6_FZMMSAyEQ4Wg","Channel ID"
+";dt4","// Find the first non-weekend day four days from now
+var p4bd = new Date();
+p4bd.setDate(TextExpander.baseDate.getDate() + 4); // add 4 days to current
+// skip Saturdays and Sundays
+while (p4bd.getDay() == 6 || p4bd.getDay() == 0) {
+    p4bd.setDate(p4bd.getDate() + 1);
+}
+TextExpander.adjustedDate = p4bd; // adjust for all snippets in this expansion
+TextExpander.ignoreOutput = true;","Date + 4"
+";eycash","units %|usd egp","Wife Money"
+";food","Hi Dave,<br /><br />Here is the menu for this week.<br /><br /><b><u>Style</u>: </b>%fillpopup:name=Style:American:default=Mexican:Chinese:Korean%<br /><br /><b>Meat %fillpopup:name=Meat 1:Chicken:default=Beef:Pork:Fish% </b>and %fillpopup:name=Meat 2:Chicken:default=Beef:Pork:Fish%<br /><br /><b>Vegitable Sides </b>%fillpopup:name=Vegitable 1:Corn:default=Green Beans:Brocali:Turnips:Culiflower% and %fillpopup:name=Vegitable 2:Corn:default=Green Beans:Brocali:Turnips:Culiflower%<br /><br /><b>Other Sides </b>%fillpopup:name=Other sides 1:Rice:default=Mac N Cheese:Couse couse% and %fillpopup:name=Other sides 2:Rice:default=Mac N Cheese:Couse couse%<br /><br />Other Details: ","Menu 3"
+";hfemail","%snippet:$ey%Attached is the billing receipt for the month of %B from %snippet:;hp%, our ticketing platform provider. 
+
+%snippet:Ab!%","HappyFox Email"
+";hp","HappyFox","HappyFox"
+";hvid","var url = TextExpander.pasteboardText;
+var youtubeRx = /(?:youtu\.be\/|youtube\.com\/watch\?v=)([a-z0-9_\-]+)$/i
+
+if (youtubeRx.test(url)) {
+	var id = youtubeRx.exec(url)[1];
+	TextExpander.appendOutput(`{< youtube ${id}>}`);
+}","Hugo Vid Embed"
+";inno","innocuous","innocuous"
+";ita","Inside That Ad","Blog Title"
+";kath","Hi Ata:
+
+","Kathleen - Zendesk"
+";kiss","Mwah 💋Mwah💋Mwah💋Mwah💋","Kiss"
+";la","Los Angeles","Los Angeles"
+";mail","11023 McCormick St Apt 212","Mail Line"
+";mj","Hi Miss Juliette:
+
+","Miss Juliette"
+";ph","2173901707","Number no dash"
+";pix","Pixelmator Pro","Pixelmator Pro"
+";rek","Rekorderlig Hard Cider","Rekorderlig Hard Cider"
+";res","aanwar1982@gmail.com","Resume Email Address"
+";script","tell application """"
+	%|
+end tell","Start AScript "
+";tv","TicketVault","TicketVault"
+";uiuc","University of Illinois Urbana-Champaign","University of Illinois Urbana-Champaign"
+";xxhello","Hi %snippet:$efcap%,","Hello Email Recipient "
+";xxlinks","Links:
+https://www.youtube.com/c/AbdallahAnwar
+https://www.insidethatad.net/
+@bocciaman","Links"
+"Last Name (Only)","Anwar","aa;"
+"ab!","Best,
+-A.B.","Nickname"
+"applogize","apologize","apologize"
+"ii","I ","I"
+"ill","I'll","I will"
+"ive","I've","I have"
+"niether","neither","Neither"
+"screenflow","ScreenFlow","ScreenFlow"
+"skype","Skype","Skype"
+"uu","you","You"
+"whatsapp","WhatsApp","WhatsApp Brand Name"
+"xxpm","For when you get here:
+
+1. Dial 0390 on the call box;
+2. Wait for the door to open;
+3. Get on the elevator and tap #2;
+4. Go straight, across the walkway and turn left. You'll see apartment 212 on the left side.
+
+* Make sure you are in the right building at 11023 McCormick.","Postmates"
+"yy","why ","Why"
